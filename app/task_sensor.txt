@@ -1,7 +1,7 @@
   task_sensor.c (task_sensor.h, task_sensor_attribute.h) 
    Non-Blocking & Update By Time Code -> Sensor Modeling
-   
-  En el archivo de atributos se define la siguiente información constructiva:
+
+En el archivo de atributos se define la siguiente información constructiva:
 - Eventos posibles para esta tarea
 - Estados posibles
 - ID de cada sensor.
@@ -44,4 +44,3 @@ Es interesante destacar que la acción del sensor de generar un evento en el sys
 #NOTA GENÉRICA:
 En general, en el task_XXXX_update se utilizará la lista de configuración para tomar acciones sobre el hardware (indicar un evento si un botón se presiona o encender un led)
 y se utilizará la lista de datos para saber si ocurrieron los eventos y circular a través del statecharch
-...
